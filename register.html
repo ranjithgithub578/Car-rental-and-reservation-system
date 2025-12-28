@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Page</title>
+<style>    
+body{
+background-color:white;
+font-family:'Times New Roman', Times, serif;
+background: url("IMAGES/bg.png");
+}
+header{ 
+    padding:10px 20px;
+    background-color:gray;
+    margin-bottom:40px;
+    border-radius: 10px;
+    height:60px;
+    background: linear-gradient(to right,lightblue,lightgray);
+}
+
+h1{
+    color: black;
+    text-align:center;
+    font-weight: 200;
+    
+}
+.container {
+width:600px;
+height:380px;    
+background-color:lightgray;
+margin-left: auto;
+margin-right:auto;
+border-radius: 20px;
+margin-bottom:60px;
+}
+form {
+    padding:20px;
+}
+
+input {
+    margin:10px 10px;
+    width:70%;
+    height:25px;
+    border-left:20px;
+}
+a {
+    background-color: goldenrod;
+    border:none;
+    width:200px;
+    height:30px;
+    color:black;
+    text-decoration:none;
+    font-size:1.2em;
+    padding:5px 20px;
+    border-radius:5px;
+    margin-top: 20%;
+    margin-left:40%;
+    margin-right:40%;
+    
+}
+a:hover{
+    background-color: gold;
+}
+textarea{
+    background-color: white;
+    margin-bottom:10px;
+}
+footer{
+    background-color: gray;
+    height:40px;
+    text-align:center;
+    font-weight: 300;
+    padding:5px 0;
+    margin-bottom:-5px;
+    background: linear-gradient(to right,lightgray,lightblue);
+    
+}
+</style>
+</head>
+<body>
+    <header>
+    <h1>Registration-Page</h1>
+    </header>
+    <main>
+        <div class="container">
+                    <form>
+            <label for = "name" >Name :</label>
+            <input type="text" id="name" class="name" placeholder="Enter your name"/> </br>
+            <label for = "Fname" >Father Name :</label>
+            <input type="text" id="Fname" class="name" placeholder="Enter your  Fathername"/> </br>
+            <label for = "Age" >Age :</label>
+            <input type="number" id="Age" class="Age" placeholder="Enter your Age"/></br>
+            <label for = "Phone" >Phone :</label>
+            <input type="tel" id="Phone" class="Phone" placeholder="Enter your number"/></br>
+            <label for ="gender">Gender :</label>
+            <select  id="gender" name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            </select>
+        <br/>
+          <label for="textarea">Address : </label>
+            <textarea cols="60" rows="4" ></textarea> <br/>
+
+            <a href="index.html">Register</a>
+        
+
+            </form>
+
+            </div>
+        </form>
+
+    </main>
+    
+    <footer>
+        <p> &copy; Rentals Service Limited </p>
+    </footer>
+</body>
+</html>
